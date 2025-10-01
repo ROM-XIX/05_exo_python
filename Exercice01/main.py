@@ -1,2 +1,5 @@
-name = input("Entrez votre nom : ")
+print("quelle est votre nom ?")
+name = input("Entrez votre nom : ").strip()
+print("quelle est votre âge ?")
 age = int(input("Entrez votre âge : "))
+print(f"Bonjour, je m'appelle {name} et j'ai {age} ans.")

@@ -1,6 +1,16 @@
 # Instruction - Exercice 12
 
-Vous devez créer un programme pour gérer une bibliothèque. Une bibliothèque peut contenir plusieurs livres. Chaque livre a un titre, un auteur et une année de publication. Les utilisateurs de la bibliothèque peuvent emprunter des livres, les rendre et afficher la liste des livres disponibles.
+Vous devez créer un programme pour gérer une bibliothèque. 
+Une bibliothèque peut contenir plusieurs livres.
+- Chaque livre a : 
+   - un titre,
+   - un auteur et 
+   - une année de publication. 
+
+- Les utilisateurs de la bibliothèque peuvent: 
+   - emprunter des livres,
+   - les rendre et 
+   - afficher la liste des livres disponibles.
 
 1. Créez une classe `Book` avec les attributs `title`, `author`, et `year`.
 2. Créez une classe `Library` avec deux attributs `books` (livres disponibles dans la bibliothèque) et  `borrowed_books` (livres empruntés)
